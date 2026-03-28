@@ -1,5 +1,5 @@
 // Typing Effect
-const typingText = "حاجة بسيطة عشانك يا توتي و يارب تفرحك❤️";
+const typingText = "حاجة بسيطة عشانك يا سووووو و يارب تفرحك❤️ ";
 let i = 0;
 
 function typing() {
@@ -14,7 +14,9 @@ typing();
 
 // Surprise Button
 document.getElementById("btn").onclick = function () {
-  alert("اه ده انتي حمارة بقا عموما مبسوط انك موجودة ❤️");
+  alert(
+    "اه ده انتي حمارة بقا عموما مبسوط انك موجودة و بجد وحشاني اوي اوي و حبي ليكي مقلش خالص  ❤️",
+  );
 };
 
 // Hearts Animation
